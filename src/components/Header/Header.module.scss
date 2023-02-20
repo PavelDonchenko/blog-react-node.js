@@ -27,6 +27,8 @@
 }
 
 .buttons {
+  display: flex;
+  align-items: center;
   button {
     margin-left: 10px;
   }
@@ -34,4 +36,15 @@
   a {
     text-decoration: none;
   }
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4361ee;
+  font-weight: 700;
 }
